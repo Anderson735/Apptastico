@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(63, 56, 56);
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#FFF;
+    background-color:rgb(63, 56, 56);
+	border-radius:30px;
+    padding:2px 17px;
+}
+
+header a:hover{
+	background-color:rgb(39, 30, 30);
+}
+
+#logo{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
