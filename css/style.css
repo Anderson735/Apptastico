@@ -35,3 +35,31 @@ header a:hover{
     align-items: center;
     justify-content: space-evenly;
 }
+
+#información{
+    background-color:rgb(63, 56, 56);
+    display: flex;
+    color: #FFF;
+}
+
+#celular{
+    justify-content: center;
+    align-items: center;
+}
+
+#boton a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#FFF;
+    background-color:rgb(76, 160, 216);
+	border-radius:30px;
+    padding:11px 24px;
+}
+
+nav{
+    display: grid;
+}
+
+#enlaces{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
