@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Quicksand:wght@300&display=swap');
 
 /*---------------------------------------- HEADER ----------------------------------------*/
 header{
@@ -11,12 +11,6 @@ header{
 
 .contenido_header{
     width: 75%;
-}
-
-.titulo1{
-    color: #fff;
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
 }
 
 #contenido_nav{
@@ -34,7 +28,7 @@ nav{
 
 nav a{
     font-size: 16px;
-    font-family: verdana;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -54,7 +48,7 @@ nav a:hover{
 
 .titulo{
     color: #fff;
-    font-family: verdana;
+    font-family: 'Metrophobic', sans-serif;
     font-size: 40px;
     font-weight: 600;
 }
@@ -64,17 +58,17 @@ nav a:hover{
 }
 
 .parrafo1 p{
-    color: rgb(199, 195, 195);
+    color: rgb(222 209 209);
     font-size: 15px;
     line-height: 20px;
-    font-family: verdana;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .text2{
-    color: rgb(153, 152, 152);
+    color: rgb(187, 180, 180);
     font-size: 15px;
     line-height: 20px;
-    font-family: verdana;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .cotenido_flex{
@@ -116,7 +110,7 @@ nav a:hover{
     font-family: verdana;
 }
 
-/*-------------------------------------- SECTION ------------------------*/
+/*-------------------------------------- SECTION ----------------------------------------*/
 .contenedor{
     border: 0px solid rgb(143, 143, 143);
     display: grid;
@@ -161,7 +155,7 @@ nav a:hover{
 
 .titulos1{
     font-size: 20px;
-    font-family: verdana;
+    font-family: 'Metrophobic', sans-serif;
     color: rgb(66, 66, 66);
     text-align: center;
 }
@@ -282,10 +276,11 @@ article{
 }
 
 .imagen1{
+    border: 1px solid rgb(19, 255, 243);
     height: 210px;
     width: 240px;
     overflow: hidden;
-    border: 8px solid rgb(247 245 245);
+    border: 8px solid rgb(236, 236, 236);
 }
 
 
@@ -413,7 +408,7 @@ hr{
     width: 85%;
 }
 
-.contenedorf{
+.c{
     width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
