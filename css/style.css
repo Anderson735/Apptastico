@@ -8,6 +8,7 @@ header{
     padding: 0% 0% 4% 0%;
 }
 
+
 .contenido_header{
     width: 75%;
 }
@@ -214,6 +215,7 @@ article{
     font-size: 17px;
     font-family: verdana;
     color: rgb(63, 63, 63);
+    position: relative;
 }
 
 .img5{
@@ -222,9 +224,10 @@ article{
     top: 10px;
 }
 
-.contenido_imagen3{
+.imagenes{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .caja_imagen{
@@ -234,7 +237,6 @@ article{
     overflow: hidden;
     margin-bottom: 10px;
     border: 8px solid rgb(236, 236, 236);
-    box-shadow: 0px 0px 10px 0px rgb(68, 68, 68);
 }
 
 .caja_imagen > .img4{
@@ -248,14 +250,15 @@ article{
     grid-template-columns: 1fr 1fr;
 }
 
-.title_logo, .title_logo2{
+.Wifi, .Twitter{
     display: flex;
     justify-content: space-between;
-    width: 19%;
+    width: 29%;
 }
 
-.title_logo2{
-    width: 22%;
+.Twitter{
+    width: 32%;
+    transform: translate(24%);
 }
 
 .shape03{
@@ -263,10 +266,7 @@ article{
     width: auto;
 }
 
-.text4{
-    position: relative;
-    top: -10px;
-}
+
 
 .caja_grid{
     display: grid;
@@ -282,11 +282,10 @@ article{
 }
 
 .imagen1{
-    border: 1px solid rgb(19, 255, 243);
     height: 210px;
     width: 240px;
     overflow: hidden;
-    border: 8px solid rgb(236, 236, 236);
+    border: 8px solid rgb(247 245 245);
 }
 
 
@@ -297,27 +296,66 @@ article{
 }
 
 .notificacion{
-    border: 0px solid rgb(75, 48, 48);
     width: 68%;
+    padding: 0% 0% 0% 5%;
 }
 
-.titulo_pequeño{
-    color: rgb(88, 87, 87);
+.notificacion p{
+    color: rgb(151, 149, 149);
+    font-size: 15px;
+    font-family: verdana;
+    line-height: 25px;
+}
+
+#container{
+    transform: translateY(-13%);
+}
+
+#container1{
+    transform: translateY(-140%);
+}
+
+#container2{
+    transform: translateY(-257%);
+}
+
+#fecha1, #fecha2, #fecha3{
+    color: rgb(151, 149, 149);
+    font-size: 15px;
+    font-family: verdana;
+}
+
+#fecha1{
+    transform: translateY(-100%);
+}
+#fecha2{
+    transform: translateY(-541%);
+}
+#fecha3{
+    transform: translateY(-15pc);
+}
+
+.notificacion a{
+    color: rgb(64, 177, 221);
+    font-size: 15px;
+    font-family: verdana;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(152 148 148);
     font-size: 17px;
     font-family: verdana;
 }
 
-span{
-    color: rgb(0, 155, 202);
-    font-size: 16px;
-    font-family: verdana;
-}
 
 .fecha{
     color: rgb(151, 149, 149);
     font-size: 15px;
     font-family: verdana;
 }
+
 .texto11{
     color: rgb(151, 149, 149);
     font-size: 15px;
@@ -325,15 +363,23 @@ span{
     line-height: 25px;
 }
 
-.older{
+#older{
     font-size: 16px;
     font-family: verdana;
     color: rgb(0, 155, 202);
 }
+#Follow{
+    font-size: 16px;
+    font-family: verdana;
+    color: rgb(0, 155, 202);
+    transform: translateY(-15pc);
+}
 
-.span{
+span{
     color: #000;
     line-height: 40px;
+    font-size: 16px;
+    font-family: verdana;
 }
 
 .span2{
@@ -362,12 +408,12 @@ footer{
 }
 
 hr{
-    background-color: rgb(151, 149, 149);
-    height: 1px;
+    background-color: rgb(240, 238, 238);
+    height: 0px;
     width: 85%;
 }
 
-.caja_footer{
+.contenedorf{
     width: 85%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -396,10 +442,6 @@ hr{
     width: auto;
 }
 
-
-nav{
-    display: grid;
-}
 
 #enlaces{
     grid-template-columns: 20% 20% 20% 20% 20%;
